@@ -1,0 +1,60 @@
+{
+  "name": "Project",
+  "version": "2.0.2",
+  "description": "",
+  "type": "module",
+  "main": "gulpfile.js",
+  "engines": {
+    "node": "^16.17.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "js-cookie": "^3.0.1",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.5",
+    "cors": "^2.8.5",
+    "delete": "^1.1.0",
+    "dotenv": "^16.0.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-esbuild": "^0.10.5",
+    "gulp-if": "^3.0.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-npm-files": "^0.1.3",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-stylus": "^2.7.1",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "node-port-check": "^2.0.1",
+    "open": "^8.4.0",
+    "through2": "^4.0.2",
+    "tslint": "^6.1.3",
+    "typescript": "^4.8.4",
+    "ws": "^8.9.0",
+    "yargs": "^17.6.0"
+  },
+  "scripts": {
+    "build": "gulp build --production",
+    "start": "gulp --open",
+    "dev": "gulp",
+    "static": "gulp --static",
+    "kill": "taskkill /f /im node.exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dergachevm/project2"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dergachevm/project2/issues"
+  },
+  "homepage": "https://github.com/dergachevm/project2"
+}

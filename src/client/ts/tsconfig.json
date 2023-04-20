@@ -1,0 +1,24 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "ECMA Script 2016",
+	"include": ["**/*"],
+
+	"compilerOptions": {
+
+		"module": "commonjs",
+		"target": "ES2016",
+
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"noImplicitAny": true,
+		"allowJs": true
+
+		// "baseUrl": ".",
+		// "forceConsistentCasingInFileNames": true,
+		// "resolveJsonModule": true,
+		// "isolatedModules": true,
+		// "sourceMap": true
+	},
+}

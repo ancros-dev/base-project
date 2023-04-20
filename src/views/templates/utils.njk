@@ -1,0 +1,18 @@
+{# EXAMPLE #}
+{# import macro from utils.html
+{% import "utils.html" as console %}
+#}
+
+{# Use it as simple function
+{{console.log(blog)}}
+#}
+
+{% macro log(value) %}
+<script>console.log({{ value | dump(4) }})</script>
+{% endmacro %}
+
+{% if serverData.devMode %}
+<script>
+	const localData = '{{ serverData | dump | safe }}'; let serverData; if (localData) { try { serverData = JSON.parse(localData); console.log('serverData', serverData); } catch(e) { /*console.log(e.message);*/ } }
+</script>
+{% endif %}
